@@ -1,0 +1,47 @@
+
+
+I had told you about developing a web application in PHP/HTML/MySql.
+
+Design the DB tables and develop PHP/HTML pages. you may use JS/JQUERY/REACT.JS , etc. 
+Try to develop with your own ideas, design and code as much as possible, and make it work.
+Send it once you complete it.
+Try to send it by Oct 22nd. Hope the time is sufficient.
+
+Medicinal nursery management/information system:
+1. It has info about various rare medicinal plants.
+2. plants belong to various botanical groups (call them main-groups), and plants in a main-group in turn belong to sub-groups.
+All plants in a group share some similar properties. And, all plants in a sub-group share some common specialized properties.
+Again some sub-groups across the main-groups share some (not all) common properties.
+Again each plant has it's own distinct medicinal & other properties which none of other plant-type has.
+
+3. Some of the plant properties are: 
+- name, current-age, max-age, water-requirement per X days (amount in units), nutrition-requirement per X days (amount in units), list of medicinal properties (assume some properties) ;
+- photo, taxonomy info, field no. (row & col) where plant is kept.
+
+4. Nutrition - General schedule: nutrition is given every month to every plant ( K amount proportionate to its age).
+
+5. Watering info & schedule : General schedule: each plant in an age group of :
+0-1 month -> daily 1 unit of water, each day;
+1- 4 months - 2 units, each day;
+3-7 months - 3 units, once in 2 days;
+7 - 15 months - 4 units, once in 2 days.
+
+6. Variation from General schedule: 
+a. plants of the main-group 'A' require 20% less water than general needs and 25% more nutrition than normal requirement.
+b. sub-group 'B20' require 30% more water & 20% more nutrition.
+
+7. usually all plants live for around 24 months. But those in sub-group 'A3' live for 30 months & those in sub-group B1 live for 19 months only.
+
+8. When plants die we mark their status 'dead' and is taken out of water & nutrition schedules.
+
+9. Develop these web pages to display the information:
+- page to display list of all sub groups and their info.
+- page to display list of all main groups and their info.
+- page to display list of all current plants and their primary info.
+- page to display list of all dead plants and their primary info.
+- display today's water schedule & required info: which plants to be watered, how much, etc.
+- a page to show all info about a given Plant.
+-----------------
+Forgot this:
+
+In addition to pages mentioned yesterday,  Develop  a page/form to add info about a new plant into system and another form to update info of an existing  plant.
